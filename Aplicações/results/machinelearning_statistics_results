@@ -1,0 +1,236 @@
+Standard Deviaton:
+
+
+Desicion Tree: 0.05158724019834672
+DT + OV: 0.05120209018629527
+DT + OV + UN: 0.059073198884850214
+
+
+Multinomial Naive Bayes: 0.04662627683185311     
+MNB + OV: 0.04903966917736533
+MNB + OV + UN: 0.044623065159976924
+
+
+SVC: 0.045402139308732554
+SVC + OV: 0.0454524816341235
+SVC + OV + UN: 0.044823337642818956
+
+
+Random Forest: 0.045819874466728756
+RF + OV: 0.03846824626359424
+RF + OV + UN: 0.03159753067384166
+
+
+Adaboost: 0.054376849969439985
+Adaboost + OV: 0.04765453583444436
+Adaboost + OV + UN: 0.046593702202248226
+
+
+XGBoost: 0.028463403530788495
+XGBoost + OV: 0.033274664725732345
+XGBoost + OV + UN: 0.03847380517966396
+
+
+
+
+Normality Tests:
+Shapiro-Wilk Tests:
+Decision Tree:
+        Statistics=0.982, p=0.974
+        Sample looks Gaussian (fail to reject H0)
+DT + Oversampling:
+        Statistics=0.939, p=0.541
+        Sample looks Gaussian (fail to reject H0)
+DT + Oversampling + Undersampling:
+        Statistics=0.944, p=0.597
+        Sample looks Gaussian (fail to reject H0)
+Multinomial Naive Bayes:
+        Statistics=0.933, p=0.476
+        Sample looks Gaussian (fail to reject H0)
+MNB + Oversampling:
+        Statistics=0.942, p=0.571
+        Sample looks Gaussian (fail to reject H0)
+MNB + Oversampling + Undersampling:
+        Statistics=0.946, p=0.626
+        Sample looks Gaussian (fail to reject H0)
+SVC:
+        Statistics=0.857, p=0.071
+        Sample looks Gaussian (fail to reject H0)
+SVC + Oversampling:
+        Statistics=0.849, p=0.056
+        Sample looks Gaussian (fail to reject H0)
+SVC + Oversampling + Undersampling:
+        Statistics=0.863, p=0.083
+        Sample looks Gaussian (fail to reject H0)
+Random Forest:
+        Statistics=0.980, p=0.963
+        Sample looks Gaussian (fail to reject H0)
+RF + Oversampling:
+        Statistics=0.981, p=0.969
+        Sample looks Gaussian (fail to reject H0)
+RF + Oversampling + Undersampling:
+        Statistics=0.880, p=0.130
+        Sample looks Gaussian (fail to reject H0)
+Adaboost:
+        Statistics=0.959, p=0.779
+        Sample looks Gaussian (fail to reject H0)
+Adaboost + Oversampling:
+        Statistics=0.965, p=0.839
+        Sample looks Gaussian (fail to reject H0)
+Adaboost + Oversampling + Undersampling:
+        Statistics=0.930, p=0.447
+        Sample looks Gaussian (fail to reject H0)
+XGBoost:
+        Statistics=0.891, p=0.173
+        Sample looks Gaussian (fail to reject H0)
+XGBoost + Oversampling:
+        Statistics=0.969, p=0.877
+        Sample looks Gaussian (fail to reject H0)
+XGBoost + Oversampling + Undersampling:
+        Statistics=0.961, p=0.795
+        Sample looks Gaussian (fail to reject H0)
+
+
+Comparações de um algoritmo em relação aos demais algoritmos:
+Testes comparando com: 'Random Forest + Oversampling + Undersampling'
+Decision Tree:
+        T-Student Test:
+        Statistics=3.006, p=0.008
+        The difference between the means is statistically significant (reject H0)
+Decision Tree + Oversampling:
+        T-Student Test:
+        Statistics=3.278, p=0.004
+        The difference between the means is statistically significant (reject H0)
+Decision Tree + Oversampling + Undersampling:
+        T-Student Test:
+        Statistics=2.530, p=0.021
+        The difference between the means is statistically significant (reject H0)
+Multinomial Naive Bayes:
+        T-Student Test:
+        Statistics=1.419, p=0.173
+        The difference between the means is not statistically significant (do not reject H0)
+MNB + Oversampling:
+        T-Student Test:
+        Statistics=5.428, p=0.000
+        The difference between the means is statistically significant (reject H0)
+MNB + Oversampling + Undersampling:
+        T-Student Test:
+        Statistics=5.790, p=0.000
+        The difference between the means is statistically significant (reject H0)
+SVC:
+        T-Student Test:
+        Statistics=-0.107, p=0.916
+        The difference between the means is not statistically significant (do not reject H0)
+SVC + Oversampling:
+        T-Student Test:
+        Statistics=-0.107, p=0.916
+        The difference between the means is not statistically significant (do not reject H0)
+SVC + Oversampling + Undersampling:
+        T-Student Test:
+        Statistics=-0.052, p=0.959
+        The difference between the means is not statistically significant (do not reject H0)
+Random Forest:
+        T-Student Test:
+        Statistics=1.327, p=0.201
+        The difference between the means is not statistically significant (do not reject H0)
+Random Forest + Oversampling:
+        T-Student Test:
+        Statistics=-0.249, p=0.806
+        The difference between the means is not statistically significant (do not reject H0)
+Adaboost:
+        T-Student Test:
+        Statistics=2.843, p=0.011
+        The difference between the means is statistically significant (reject H0)
+Adaboost + Oversampling:
+        T-Student Test:
+        Statistics=2.046, p=0.056
+        The difference between the means is not statistically significant (do not reject H0)
+Adaboost + Oversampling + Undersampling:
+        T-Student Test:
+        Statistics=1.806, p=0.088
+        The difference between the means is not statistically significant (do not reject H0)
+XGBoost:
+        T-Student Test:
+        Statistics=1.741, p=0.099
+        The difference between the means is not statistically significant (do not reject H0)
+XGBoost + Oversampling:
+        T-Student Test:
+        Statistics=0.743, p=0.467
+        The difference between the means is not statistically significant (do not reject H0)
+XGBoost + Oversampling + Undersampling:
+        T-Student Test:
+        Statistics=0.934, p=0.362
+        The difference between the means is not statistically significant (do not reject H0)
+
+
+Comparações de um algoritmo em relação aos demais algoritmos:
+Testes comparando com: 'Multinomial Naive Bayes
+Decision Tree:
+        T-Student Test:
+        Statistics=1.466, p=0.160
+        The difference between the means is not statistically significant (do not reject H0)
+Decision Tree + Oversampling:
+        T-Student Test:
+        Statistics=1.694, p=0.108
+        The difference between the means is not statistically significant (do not reject H0)
+Decision Tree + Oversampling + Undersampling:
+        T-Student Test:
+        Statistics=1.190, p=0.249
+        The difference between the means is not statistically significant (do not reject H0)
+MNB + Oversampling:
+        T-Student Test:
+        Statistics=3.499, p=0.003
+        The difference between the means is statistically significant (reject H0)
+MNB + Oversampling + Undersampling:
+        T-Student Test:
+        Statistics=3.667, p=0.002
+        The difference between the means is statistically significant (reject H0)
+SVC:
+        T-Student Test:
+        Statistics=-1.319, p=0.204
+        The difference between the means is not statistically significant (do not reject H0)
+SVC + Oversampling:
+        T-Student Test:
+        Statistics=-1.318, p=0.204
+        The difference between the means is not statistically significant (do not reject H0)
+SVC + Oversampling + Undersampling:
+        T-Student Test:
+        Statistics=-1.280, p=0.217
+        The difference between the means is not statistically significant (do not reject H0)
+Random Forest:
+        T-Student Test:
+        Statistics=-0.092, p=0.928
+        The difference between the means is not statistically significant (do not reject H0)
+Random Forest + Oversampling:
+        T-Student Test:
+        Statistics=-1.527, p=0.144
+        The difference between the means is not statistically significant (do not reject H0)
+Random Forest + Oversampling + Undersampling:
+        T-Student Test:
+        Statistics=-1.419, p=0.173
+        The difference between the means is not statistically significant (do not reject H0)
+Adaboost:
+        T-Student Test:
+        Statistics=1.380, p=0.184
+        The difference between the means is not statistically significant (do not reject H0)
+Adaboost + Oversampling:
+        T-Student Test:
+        Statistics=0.556, p=0.585
+        The difference between the means is not statistically significant (do not reject H0)
+Adaboost + Oversampling + Undersampling:
+        T-Student Test:
+        Statistics=0.330, p=0.745
+        The difference between the means is not statistically significant (do not reject H0)
+XGBoost:
+        T-Student Test:
+        Statistics=-0.107, p=0.916
+        The difference between the means is not statistically significant (do not reject H0)
+XGBoost + Oversampling:
+        T-Student Test:
+        Statistics=-0.799, p=0.434
+        The difference between the means is not statistically significant (do not reject H0)
+XGBoost + Oversampling + Undersampling:
+        T-Student Test:
+        Statistics=-0.552, p=0.588
+        The difference between the means is not statistically significant (do not reject H0)
+Duração: 0.135815 segundos

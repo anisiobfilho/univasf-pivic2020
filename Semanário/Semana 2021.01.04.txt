@@ -1,0 +1,26 @@
+Tarefas da semana:
+- Realizar atividaes da pasta experimentos (parte 2)
+- Remover acentuação das palavras e simbolos
+- Estudar e implementar o stemming: https://pythonprogramming.net/stemming-nltk-tutorial/
+= Estudar a biblioteca pandas
+
+2. Evolução da Análise Exploratória dos Dados (15/01/21)
+2.1. Extra: estudar o método pandas [Tutorials — pandas 0.15.2 documentation (pydata.org)];
+2.2. Utilizar apenas o campo de texto para o cálculo de frequência das palavras;
+2.3. Remover símbolos, acentuação e pontuação;
+2.4. Aplicar o método de stemming RSLPStemmer() [Python Programming Tutorials];
+2.5. Padronizar as palavras corona, covid-19, covid, coronavírus e sinônimos;
+2.6. Variar a quantidade de palavras na nuvem de palavras;
+
+
+PorterStemmer()
+CStemming para Português:
+
+nltk.stem.RSLPStemmer()
+O exemplo acima utiliza o algoritmo PorterStemmer()
+
+Contudo, para a língua portuguesa devemos utilizar:
+RSLPStemmer()
+
+Exemplos com a lib pandas: 
+https://towardsdatascience.com/30-examples-to-master-pandas-f8a2da751fa4

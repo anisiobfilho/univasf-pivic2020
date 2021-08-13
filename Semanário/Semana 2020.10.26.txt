@@ -1,0 +1,5 @@
+Atividades
+1. Conta: Twitter Development
+2. Curso: https://www.datascienceacademy.com.br/course?courseid=python-fundamentos
+3. Instalar Anaconda: https://www.anaconda.com/downloads
+4. Google Colab

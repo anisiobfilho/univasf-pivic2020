@@ -1,0 +1,9 @@
+Tarefas da semana:
+- Realizar atividaes da pasta experimentos (parte 1)
+
+1. Análise textual (04/01/21)
+1.1. Todo o texto em letras minúsculas [método em python texto.lower()];
+1.2. Remoção de links, pontuação e caracteres especiais que não agregam ao contexto [ekphrasis · PyPI - TextPreProcessor];
+1.3. Remoção de palavras que não agregam ao contexto (stopwords) [Examples for Portuguese Processing (nltk.org)]
+1.4. Frequência de palavras (gerar lista ordenada a partir da mais frequente) (How to process textual data using TF-IDF in Python (freecodecamp.org));
+1.5. Gerar nuvem de palavras (wordcloud · PyPI)

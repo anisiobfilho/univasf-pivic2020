@@ -1,0 +1,7 @@
+- Construir o crawler (usando tweepy) buscando hashtags
+informações: data, localização, tweet
+lista de hashtags: ['covid','covid19','coronavirus']
+documentação tweepy: http://docs.tweepy.org/en/latest/
+exportar .csv
+
+https://www.earthdatascience.org/courses/use-data-open-source-python/intro-to-apis/twitter-data-in-python/

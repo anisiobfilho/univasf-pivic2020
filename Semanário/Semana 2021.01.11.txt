@@ -1,0 +1,11 @@
+Reunião: 15/01/2021
+Tarefas da semana:
+- Realizar atividaes da pasta experimentos (parte 3)
+
+3. Análises diversas (21/01/21)
+3.1. Remover acentuação da lista de stopwords do nltk;
+3.2. Aplicar stemming após stopwords;
+3.3. 3 novas colunas: 1) quantidade de caracteres por tuíte, 2) usuário que postou o tuíte (busca por ID da base de dados), 3) coluna ‘turno’, com manhã, tarde ou noite;
+3.4. Primeira versão de uma lista de stopwords considerando o contexto das redes sociais;
+3.5. Padronizar textos da coluna de ‘localização’ (letras minúsculas e sem acentuação);
+3.6. Padronizar siglas dos Estados, por meio da folha2 da planilha Cidades do Brasil (lembrar de padronizar também os textos da planilha com letras minúsculas e sem acentuação).

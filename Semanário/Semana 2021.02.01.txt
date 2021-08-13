@@ -1,0 +1,10 @@
+Tarefas da semana:
+- Realizar atividaes da pasta experimentos (parte 6)
+
+6. Atividades 08/02
+6.1. Analisar frequência dos users_names;
+6.2. Capturar o país de origem da postagem;
+6.3. Unificar a palavra vacina;
+6.4. Continuar alimentando a base de dados;
+6.5. Artigo como dividir os turnos (manhã, tarde e noite);
+6.6. extra: lib Time.

@@ -1,0 +1,12 @@
+Reunião 01/03/2021:
+
+Atividades:
+Relatório parcial:
+-Estudo do documento de projeto
+-Ínicio do relatório parcial
+-Introdução
+-Trabalhos relacionados (covid-19 e fake news)
+
+Análises:
+-Divisão das bases de dado de rotulação
+

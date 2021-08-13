@@ -1,0 +1,4 @@
+https://dl.acm.org/doi/10.1145/3342558.3345388
+amaverick70@gmail.com / madf@cin.ufpe.br
+1. Refinar a string de busca;
+2. Protocolo de anotação

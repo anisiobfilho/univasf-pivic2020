@@ -1,0 +1,20 @@
+STEM: 
+wordcloud_cli --text data/data-twitter/data-twitter_stemm-wordfrequency.txt --imagefile wordcloud/data-twitter/wordcloud-stemm-00.png --scale 2 --max_words 500
+
+LEMMA: 
+wordcloud_cli --text data/data-twitter/data-twitter_lemma-wordfrequency.txt --imagefile wordcloud/data-twitter/wordcloud-lemma-00.png --scale 2 --max_words 500
+
+OTHERS:
+wordcloud_cli --text data/data-twitter/data-twitter_wordfrequency.txt --imagefile wordcloud/data-twitter/wordcloud1.png --mask wordcloud/masks/covid.jpg --background "black" --scale 2 --max_words 500
+
+wordcloud_cli --text data/data-twitter/data-twitter_wordfrequency.txt --imagefile wordcloud/data-twitter/wordcloud2.png --mask wordcloud/masks/covid2.png --background "black" --scale 2 --max_words 500
+
+wordcloud_cli --text data/data-twitter/data-twitter_wordfrequency.txt --imagefile wordcloud/data-twitter/wordcloud3.png --mask wordcloud/masks/covid3.png --background "black" --scale 2 --max_words 500
+
+wordcloud_cli --text data/testfiles/testfile_frequency.txt --imagefile wordcloud/testfiles/wordcloud.png --scale 2 --max_words 500
+
+wordcloud_cli --text data/testfiles/testfile_frequency.txt --imagefile wordcloud/testfiles/wordcloud1.png --mask wordcloud/masks/testfiles/covid.jpg --background "black" --scale 2 --max_words 500
+
+wordcloud_cli --text data/testfiles/testfile_frequency.txt --imagefile wordcloud/testfiles/wordcloud2.png --mask wordcloud/masks/testfiles/covid2.png --background "black" --scale 2 --max_words 500
+
+wordcloud_cli --text data/testfiles/testfile_frequency.txt --imagefile wordcloud/testfiles/wordcloud3.png --mask wordcloud/masks/testfiles/covid3.png --background "black" --scale 2 --max_words 500

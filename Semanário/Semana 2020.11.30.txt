@@ -1,0 +1,34 @@
+Boa noite professora,
+
+Durante o fim de semana consegui ler os artigos e dei uma olhada por cima da dissertação, li o resumo e fui passando pelo indice e dando uma olhada em como o estudo foi feito.
+
+Eu achei o artigo "Building a Sentiment Corpus of Tweets in Brazilian Portuguese" bastante interessante pois ele além de descrever muito bem todo o processo do estudo, ele também tem uma similaridade nos métodos de classificação com o que estamos fazendo e por ter um foco muito bom na análise de sentimentos.
+O artigo "Twitter as a Lifeline: Human-annotated Twitter Corpora for NLP ofCrisis-related Messages" também é muito bom pela forma como descreveu todos os passos e também adiciona mais alguns detalhes úteis para o processo de anotação.
+No artigo "Developing and Evaluating Annotation Procedures for Twitter Data during Hazard Events" eu achei bastante interessante a forma com o estudo foi conduzido e como fizeram para considerar os dados, porém, foi o que achei mais distante do que estamos buscando.
+A dissertação "Automatic detection of hate speech in text: an overview of the topic and dataset annotation with hierarchical classes" eu achei muito interessante principalmente por envolver o português, mas infelizmente não consegui aprofundar a leitura.
+
+De toda forma, eu preparei uma apresentação com os pontos que considero mais importantes para a condução do nosso estudo e também quero abrir uma discussão de alguns pontos importantes com a senhora. Segue anexo, um documento com os "Procedimentos para Processamento de Linguagem Natural" como intitulei, apesar de ser mais um guia para o estudo.
+As partes que considero mais importantes agora seria definir todos os detalhes de como será o processo de anotação, visto que em todos os textos que eu li, era dado bastante foco nessa etapa, pois é o que da a base para o estudo de processamento de linguagem natural.
+
+Documento no Drive: https://docs.google.com/document/d/17x2liUMdIBA3rHpdGtXRe53ZkJL4hoJQ6yQbeeo1gWU/edit?usp=sharing
+
+At,te.
+Anísio Filho.
+
+-----
+
+Ótimo, Anísio.
+Um aviso, já tenho a terceira pessoa que irá desempatar nossas anotações nos casos de divergência.
+Vi que você observou variáveis como tempo gasto por tuíte, achei bem interessante definirmos isso também. Faz uma lista de todas as variáveis que precisaremos definir, de acordo com o que você observou nas leituras e tenta me enviar até sexta (04/12), por favor.
+Minha ideia é finalizarmos essas pendências esse mês e passar janeiro apenas com as anotações, o que não demandará muito esforço uma vez que teremos tudo definido. Será basicamente ler e classificar o tuíte.
+
+-----
+
+Professora,
+
+Comecei a fazer aqui o Guia de Anotação, e já está dentro do drive do PIVIC. Coloquei os pontos que considerei mais relevantes, porém acho que ainda precisa de algum refinamento.
+
+Segue o link: https://docs.google.com/document/d/1lCfuBrFFzkJ1auDdXjUsGnLMlslizA-6MC_l1UmPuPY/edit
+
+At.te,
+Anísio Filho

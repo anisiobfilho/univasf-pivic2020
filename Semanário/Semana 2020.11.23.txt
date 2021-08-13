@@ -1,0 +1,15 @@
+Classificar os tweets
+Ler o artigo (professora manda na quarta)
+
+Article "Building a Sentiment Corpus of Tweets in Brazilian Portuguese"
+http://www.lrec-conf.org/proceedings/lrec2018/pdf/389.pdf
+
+Dissertação "Automatic detection of hate speech in text: an overview of the topic and dataset annotation with hierarchical classes"
+https://repositorio-aberto.up.pt/bitstream/10216/106028/2/202853.pdf
+https://rdm.inesctec.pt/pt_PT/dataset/cs-2017-008
+
+Article "Twitter as a Lifeline: Human-annotated Twitter Corpora for NLP of Crisis-related Messages"
+https://www.aclweb.org/anthology/L16-1259.pdf
+
+Article "Developing and Evaluating Annotation Procedures for Twitter Data during Hazard Events"
+https://www.aclweb.org/anthology/W18-4915.pdf

@@ -1,0 +1,9 @@
+Tarefas da semana:
+- Realizar atividaes da pasta experimentos (parte 4)
+
+4. Análise de localização (25/01/21)
+4.1. Recuperar nome de usuário;
+4.2. Analisar impacto das novas stopwords voltadas para Redes Sociais;
+4.3. Organizar localização;
+4.4. Analisar frequência de tuítes por Estado e por região, a partir da lista de Cidades do Brasil;
+4.5. Analisar turno que tem mais engajamento de postagens (Matplotlib: Python plotting — Matplotlib 3.3.3 documentation);

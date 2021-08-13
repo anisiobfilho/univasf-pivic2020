@@ -1,0 +1,272 @@
+#DECISION TREE:
+Accuracy of the best classifier after CV is 65.846%
+              precision    recall  f1-score   support
+
+        news       0.47      0.39      0.42        72
+     opinion       0.78      0.81      0.79       193
+   fake_news       0.46      0.48      0.47        60
+
+    accuracy                           0.66       325
+   macro avg       0.57      0.56      0.56       325
+weighted avg       0.65      0.66      0.65       325
+
+Melhor parâmetro: {'decisiontree__criterion': 'entropy', 'decisiontree__max_depth': None, 'decisiontree__min_samples_leaf': 1, 'decisiontree__min_samples_split': 3, 'decisiontree__random_state': None, 'decisiontree__splitter': 'random'}
+Duração: 85.264786
+
+#DECISION TREE + SMOTE:
+Accuracy of the best classifier after CV is 66.462%
+              precision    recall  f1-score   support
+
+        news       0.52      0.50      0.51        62
+     opinion       0.79      0.79      0.79       203
+   fake_news       0.40      0.42      0.41        60
+
+    accuracy                           0.66       325
+   macro avg       0.57      0.57      0.57       325
+weighted avg       0.67      0.66      0.67       325
+
+Melhor parâmetro: {'decisiontree__criterion': 'gini', 'decisiontree__max_depth': None, 'decisiontree__min_samples_leaf': 1, 'decisiontree__min_samples_split': 4, 'decisiontree__random_state': 1, 'decisiontree__splitter': 'best'}
+Duração: 124.252381
+
+#DECISION TREE + SMOTE + RANDOM UNDER SAMPLER:
+Accuracy of the best classifier after CV is 66.462%
+              precision    recall  f1-score   support
+
+        news       0.42      0.48      0.45        52
+     opinion       0.80      0.79      0.80       203
+   fake_news       0.48      0.43      0.45        70
+
+    accuracy                           0.66       325
+   macro avg       0.56      0.57      0.56       325
+weighted avg       0.67      0.66      0.67       325
+
+Melhor parâmetro: {'decisiontree__criterion': 'entropy', 'decisiontree__max_depth': None, 'decisiontree__min_samples_leaf': 1, 'decisiontree__min_samples_split': 5, 'decisiontree__random_state': None, 'decisiontree__splitter': 'random'}
+Duração: 112.776144
+
+#MULTINOMIALNB:
+Accuracy of the best classifier after CV is 69.538%
+              precision    recall  f1-score   support
+
+        news       0.50      0.51      0.50        59
+     opinion       0.90      0.74      0.81       244
+   fake_news       0.24      0.68      0.35        22
+
+    accuracy                           0.70       325
+   macro avg       0.54      0.64      0.56       325
+weighted avg       0.78      0.70      0.72       325
+
+Melhor parâmetro: {'multinomial-naive-bayes__alpha': 0.5, 'multinomial-naive-bayes__class_prior': None}
+Duração: 5.019046
+
+#MULTINOMIALNB + SMOTE
+Accuracy of the best classifier after CV is 60.308%
+              precision    recall  f1-score   support
+
+        news       0.70      0.42      0.52       101
+     opinion       0.62      0.86      0.72       146
+   fake_news       0.46      0.37      0.41        78
+
+    accuracy                           0.60       325
+   macro avg       0.59      0.55      0.55       325
+weighted avg       0.61      0.60      0.58       325
+
+Melhor parâmetro: {'multinomial-naive-bayes__alpha': 0.5, 'multinomial-naive-bayes__class_prior': None}
+Duração: 5.584452
+
+#MULTINOMIALNB + SMOTE + RANDOM UNDER SAMPLER:
+Accuracy of the best classifier after CV is 57.538%
+              precision    recall  f1-score   support
+
+        news       0.67      0.40      0.50       101
+     opinion       0.59      0.84      0.70       143
+   fake_news       0.43      0.33      0.38        81
+
+    accuracy                           0.58       325
+   macro avg       0.56      0.52      0.52       325
+weighted avg       0.58      0.58      0.55       325
+
+Melhor parâmetro: {'multinomial-naive-bayes__alpha': 0.5, 'multinomial-naive-bayes__class_prior': None}
+Duração: 5.410438
+
+#SVC:
+Accuracy of the best classifier after CV is 72.615%
+              precision    recall  f1-score   support
+
+        news       0.52      0.52      0.52        60
+     opinion       0.92      0.77      0.84       241
+   fake_news       0.30      0.79      0.44        24
+
+    accuracy                           0.73       325
+   macro avg       0.58      0.69      0.60       325
+weighted avg       0.80      0.73      0.75       325
+
+Melhor parâmetro: {'svc__C': 10, 'svc__gamma': 1, 'svc__kernel': 'rbf', 'svc__random_state': 1}
+Duração: 12.739510
+
+#SVC + SMOTE:
+Accuracy of the best classifier after CV is 72.308%
+              precision    recall  f1-score   support
+
+        news       0.52      0.51      0.51        61
+     opinion       0.92      0.77      0.84       241
+   fake_news       0.29      0.78      0.42        23
+
+    accuracy                           0.72       325
+   macro avg       0.57      0.69      0.59       325
+weighted avg       0.80      0.72      0.75       325
+
+Melhor parâmetro: {'svc__C': 10, 'svc__gamma': 1, 'svc__kernel': 'rbf', 'svc__random_state': 1}
+Duração: 20.497230
+
+#SVC + SMOTE + RANDOM UNDER SAMPLER:
+Accuracy of the best classifier after CV is 73.231%
+              precision    recall  f1-score   support
+
+        news       0.53      0.53      0.53        60
+     opinion       0.93      0.77      0.84       242
+   fake_news       0.30      0.83      0.44        23
+
+    accuracy                           0.73       325
+   macro avg       0.59      0.71      0.61       325
+weighted avg       0.81      0.73      0.76       325
+
+Melhor parâmetro: {'svc__C': 10, 'svc__gamma': 1, 'svc__kernel': 'rbf', 'svc__random_state': None}
+Duração: 20.780773
+
+#RANDOM FOREST:
+Accuracy of the best classifier after CV is 74.769%
+              precision    recall  f1-score   support
+
+        news       0.52      0.67      0.58        46
+     opinion       0.99      0.75      0.85       264
+   fake_news       0.21      0.87      0.33        15
+
+    accuracy                           0.75       325
+   macro avg       0.57      0.76      0.59       325
+weighted avg       0.88      0.75      0.79       325
+
+Melhor parâmetro: {'randomforest__criterion': 'entropy', 'randomforest__max_depth': None, 'randomforest__max_features': 9, 'randomforest__min_samples_leaf': 1, 'randomforest__min_samples_split': 10, 'randomforest__random_state': 1}
+Duração: 334.408633
+
+#RANDOM FOREST + SMOTE:
+Accuracy of the best classifier after CV is 74.769%
+              precision    recall  f1-score   support
+
+        news       0.57      0.57      0.57        60
+     opinion       0.95      0.78      0.86       244
+   fake_news       0.29      0.86      0.43        21
+
+    accuracy                           0.75       325
+   macro avg       0.60      0.74      0.62       325
+weighted avg       0.83      0.75      0.78       325
+
+Melhor parâmetro: {'randomforest__criterion': 'entropy', 'randomforest__max_depth': None, 'randomforest__max_features': 8, 'randomforest__min_samples_leaf': 1, 'randomforest__min_samples_split': 11, 'randomforest__random_state': None}
+Duração: 361.141687
+
+#RANDOM FOREST + SMOTE + RANDOM UNDER SAMPLER:
+Accuracy of the best classifier after CV is 75.692%
+              precision    recall  f1-score   support
+
+        news       0.62      0.59      0.60        63
+     opinion       0.95      0.80      0.87       240
+   fake_news       0.27      0.77      0.40        22
+
+    accuracy                           0.76       325
+   macro avg       0.61      0.72      0.62       325
+weighted avg       0.84      0.76      0.79       325
+
+Melhor parâmetro: {'randomforest__criterion': 'gini', 'randomforest__max_depth': None, 'randomforest__max_features': 9, 'randomforest__min_samples_leaf': 1, 'randomforest__min_samples_split': 9, 'randomforest__random_state': 1}
+Duração: 377.363776
+
+#ADABOOST + DECISION TREE:
+Accuracy of the best classifier after CV is 68.000%
+              precision    recall  f1-score   support
+
+        news       0.50      0.57      0.53        53
+     opinion       0.81      0.77      0.79       211
+   fake_news       0.44      0.46      0.45        61
+
+    accuracy                           0.68       325
+   macro avg       0.58      0.60      0.59       325
+weighted avg       0.69      0.68      0.68       325
+
+Melhor parâmetro: {'adaboost__learning_rate': 0.1, 'adaboost__n_estimators': 100}
+Duração: 755.204748
+
+#ADABOOST + DECISION TREE + SMOTE:
+Accuracy of the best classifier after CV is 72.615%
+              precision    recall  f1-score   support
+
+        news       0.58      0.56      0.57        63
+     opinion       0.89      0.81      0.85       222
+   fake_news       0.33      0.53      0.41        40
+
+    accuracy                           0.73       325
+   macro avg       0.60      0.63      0.61       325
+weighted avg       0.76      0.73      0.74       325
+
+Melhor parâmetro: {'adaboost__learning_rate': 1.0, 'adaboost__n_estimators': 500}
+Duração: 1241.632969
+
+#ADABOOST + DECISION TREE + SMOTE + RANDOM UNDER SAMPLER:
+Accuracy of the best classifier after CV is 72.000%
+              precision    recall  f1-score   support
+
+        news       0.55      0.52      0.53        64
+     opinion       0.88      0.79      0.83       223
+   fake_news       0.38      0.63      0.48        38
+
+    accuracy                           0.72       325
+   macro avg       0.60      0.65      0.61       325
+weighted avg       0.75      0.72      0.73       325
+
+Melhor parâmetro: {'adaboost__learning_rate': 1.0, 'adaboost__n_estimators': 500}
+Duração: 1483.554492
+
+#XGBOOST:
+Accuracy of the best classifier after CV is 74.154%
+              precision    recall  f1-score   support
+
+        news       0.48      0.55      0.51        53
+     opinion       0.93      0.79      0.85       239
+   fake_news       0.38      0.73      0.50        33
+
+    accuracy                           0.74       325
+   macro avg       0.60      0.69      0.62       325
+weighted avg       0.80      0.74      0.76       325
+
+Melhor parâmetro: {'xgboost__colsample_bytree': 0.8, 'xgboost__eval_metric': 'mlogloss', 'xgboost__gamma': 1, 'xgboost__learning_rate': 0.01, 'xgboost__max_depth': 
+7, 'xgboost__n_estimators': 1000, 'xgboost__nthread': 4, 'xgboost__num_class': 3, 'xgboost__objective': 'multi:softmax', 'xgboost__reg_alpha': 0.3, 'xgboost__subsample': 0.8, 'xgboost__use_label_encoder': False}
+Duração: 181.717461
+
+#XGBOOST + SMOTE:
+Accuracy of the best classifier after CV is 72.923%
+              precision    recall  f1-score   support
+
+        news       0.50      0.49      0.50        61
+     opinion       0.92      0.81      0.86       230
+   fake_news       0.33      0.62      0.43        34
+
+    accuracy                           0.73       325
+   macro avg       0.58      0.64      0.60       325
+weighted avg       0.78      0.73      0.75       325
+
+Melhor parâmetro: {'xgboost__colsample_bytree': 0.8, 'xgboost__eval_metric': 'mlogloss', 'xgboost__gamma': 0, 'xgboost__learning_rate': 0.01, 'xgboost__max_depth': 
+7, 'xgboost__n_estimators': 1000, 'xgboost__nthread': 4, 'xgboost__num_class': 3, 'xgboost__objective': 'multi:softmax', 'xgboost__reg_alpha': 0.3, 'xgboost__subsample': 0.8, 'xgboost__use_label_encoder': False}
+Duração: 315.117427
+
+#XGBOOST + SMOTE + RANDOM UNDER SAMPLER:
+Accuracy of the best classifier after CV is 73.846%
+              precision    recall  f1-score   support
+
+        news       0.50      0.53      0.51        57
+     opinion       0.92      0.81      0.86       229
+   fake_news       0.40      0.64      0.49        39
+
+    accuracy                           0.74       325
+   macro avg       0.60      0.66      0.62       325
+weighted avg       0.78      0.74      0.75       325
+
+Melhor parâmetro: {'xgboost__colsample_bytree': 0.8, 'xgboost__eval_metric': 'mlogloss', 'xgboost__gamma': 0, 'xgboost__learning_rate': 0.01, 'xgboost__max_depth': 
+7, 'xgboost__n_estimators': 1000, 'xgboost__nthread': 4, 'xgboost__num_class': 3, 'xgboost__objective': 'multi:softmax', 'xgboost__reg_alpha': 0.3, 'xgboost__subsample': 0.8, 'xgboost__use_label_encoder': False}
+Duração: 260.042916

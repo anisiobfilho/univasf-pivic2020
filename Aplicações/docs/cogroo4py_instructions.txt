@@ -1,0 +1,2 @@
+In a new terminal:
+java -jar utils/cogroo4py/cogroo4py.jar
